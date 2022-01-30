@@ -6,10 +6,9 @@ from custom_functions import *
 
 # Custom function
 def item_detector(our_image):
-    """ Detector function
-    """
     #
 	task = ["Faces","Smiles","Eyes","Cannize","Cartonize"]
+    #
 	feature_choice = st.sidebar.selectbox("Find Features",task)
     #
 	if st.button("Process"):
