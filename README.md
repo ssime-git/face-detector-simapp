@@ -59,3 +59,28 @@ Voir aussi: [How to Pass Environment Variables to Docker Containers (howtogeek.c
 ```
 heroku login
 ```
+
+2. connexion à heroku container
+
+heroku container:login
+
+3. Create une application
+
+heroku create face-detector-simapp ou juste heroku create
+
+Avec la deuxième option heroku va donner un nom aléatoire (dans notre cas il s'agit de safe-ravine-76536)
+
+4. Push de Dockerfile à heroku
+
+```
+heroku container:push web --app safe-ravine-76536
+```
+
+5. Build the container
+
+```
+heroku container:release web --app safe-ravine-76536
+```
+
+
+On obtient alors: [app · Streamlit (safe-ravine-76536.herokuapp.com)](https://safe-ravine-76536.herokuapp.com/)
