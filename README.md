@@ -84,3 +84,10 @@ heroku container:release web --app safe-ravine-76536
 
 
 On obtient alors: [app · Streamlit (safe-ravine-76536.herokuapp.com)](https://safe-ravine-76536.herokuapp.com/)
+
+
+
+## ressources
+
+1. [A Code Walk Through to Deploying a Container on Heroku Platform (analyticsvidhya.com)](https://www.analyticsvidhya.com/blog/2021/11/a-code-walk-through-to-deploying-a-container-on-heroku-platform/)
+2. [Creating a Streamlit web app, building with Docker + GitHub Actions, and hosting on Heroku | Joshua Cook](https://joshuacook.netlify.app/post/streamlit-app-heroku/)
