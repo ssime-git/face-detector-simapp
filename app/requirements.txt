@@ -47,7 +47,8 @@ pickleshare==0.7.5
 Pillow==7.0.0
 prometheus-client==0.7.1
 prompt-toolkit==3.0.3
-protobuf==3.11.3
+# protobuf==3.11.3
+protobuf
 ptyprocess==0.6.0
 pydeck==0.2.1
 Pygments==2.5.2
@@ -60,7 +61,8 @@ requests==2.23.0
 s3transfer==0.3.3
 Send2Trash==1.5.0
 six==1.14.0
-streamlit==0.56.0
+#==0.56.0 # version streamlit
+streamlit
 terminado==0.8.3
 testpath==0.4.4
 toml==0.10.0
